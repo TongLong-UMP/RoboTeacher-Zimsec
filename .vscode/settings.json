@@ -1,0 +1,23 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "dart.flutterSdkPath": null,
+  "dart.lineLength": 80,
+  "dart.enableSdkFormatter": true,
+  "dart.analysisExcludedFolders": [
+    ".dart_tool",
+    "build"
+  ],
+  "files.exclude": {
+    "**/.dart_tool": true,
+    "**/build": true
+  },
+  "search.exclude": {
+    "**/.dart_tool": true,
+    "**/build": true
+  }
+} 

@@ -1,0 +1,11 @@
+word,part_of_speech,example,variant,category
+cat,n,The cat is sleeping.,,Animals
+dog,n,The dog barked loudly.,,Animals
+elephant,n,An elephant is a big animal.,,Animals
+Monday,n,,,Days
+Tuesday,n,,,Days
+one,det & num,,,Numbers
+two,det & num,,,Numbers
+run,v,I run every morning.,,General
+happy,adj,She is happy today.,,General
+book,n & v,I read a book.,,General 

@@ -1,0 +1,257 @@
+Cursor Rules for RoboTeacher_Zimsec
+
+General Guidelines
+
+
+
+
+
+Language: Use Dart with Flutter for all frontend development.
+
+
+
+Code Style:
+
+
+
+
+
+Follow Dart style guide (https://dart.dev/guides/language/effective-dart/style).
+
+
+
+Use 2-space indentation.
+
+
+
+Prefer single quotes for strings unless interpolation is needed.
+
+
+
+Name files in snake_case.dart (e.g., reading_screen.dart).
+
+
+
+Commit Messages:
+
+
+
+
+
+Use clear, concise messages (e.g., "Add reading module with pronunciation testing").
+
+
+
+Reference issue numbers if applicable (e.g., "Fix #123: Update profile avatar selection").
+
+
+
+Version Control:
+
+
+
+
+
+Commit changes frequently with logical chunks.
+
+
+
+Use feature branches for new functionality.
+
+
+
+Avoid committing sensitive data (e.g., Firebase keys, Stripe secrets).
+
+File Organization
+
+
+
+
+
+Place screens in lib/screens/.
+
+
+
+Place services (e.g., auth, database) in lib/services/.
+
+
+
+Store assets (e.g., avatars) in assets/.
+
+
+
+Keep main app logic in lib/main.dart.
+
+Development Practices
+
+
+
+
+
+Null Safety: Ensure all code adheres to Dart's sound null safety.
+
+
+
+State Management: Use Provider for state management (already included).
+
+
+
+Testing:
+
+
+
+
+
+Write unit tests for services and widgets in test/.
+
+
+
+Use flutter_test for widget and integration tests.
+
+
+
+Firebase Integration:
+
+
+
+
+
+Store Firebase configuration securely (not in version control).
+
+
+
+Use Firestore for data storage and Firebase Authentication for user management.
+
+
+
+Error Handling:
+
+
+
+
+
+Handle errors gracefully with try-catch blocks.
+
+
+
+Display user-friendly error messages in the UI.
+
+
+
+Performance:
+
+
+
+
+
+Optimize widget rebuilds using const constructors where possible.
+
+
+
+Use lazy loading for large datasets (e.g., curriculum content).
+
+Code Quality
+
+
+
+
+
+Run flutter analyze before committing to catch linting issues.
+
+
+
+Format code with flutter format . to maintain consistency.
+
+
+
+Document public methods and classes with Dartdoc comments (///).
+
+
+
+Avoid hardcoding values; use constants or environment variables.
+
+AI and External APIs
+
+
+
+
+
+Pronunciation Assessment: Placeholder for Google Cloud Speech-to-Text or similar API.
+
+
+
+Assignment Grading: Placeholder for NLP-based AI service (e.g., Hugging Face).
+
+
+
+Stripe: Use flutter_stripe for payment integration; store API keys securely.
+
+IDE Settings
+
+
+
+
+
+Enable Dart and Flutter plugins in Cursor.
+
+
+
+Set up auto-formatting on save.
+
+
+
+Configure linting with analysis_options.yaml:
+
+include: package:flutter_lints/flutter.yaml
+linter:
+  rules:
+    - avoid_print
+    - prefer_const_constructors
+    - prefer_single_quotes
+
+
+
+
+
+Use Cursor's AI suggestions for code completion but review for accuracy.
+
+Build and Deployment
+
+
+
+
+
+Test locally with flutter run.
+
+
+
+Build for web with flutter build web for Firebase Hosting.
+
+
+
+Deploy to Firebase using firebase deploy.
+
+
+
+Verify builds on Android/iOS emulators before deployment.
+
+Collaboration
+
+
+
+
+
+Review pull requests thoroughly, focusing on functionality and adherence to these rules.
+
+
+
+Use GitHub issues for bug tracking and feature requests.
+
+
+
+Communicate changes via commit messages and PR descriptions.
+
+# RoboRankings UI and Content
+- The RoboRankings screen must not include a Suppliers Directory tab or any supplier-related content.
+- The RoboRankings TabBar must use labelColor: Colors.deepOrange, unselectedLabelColor: Colors.white, and indicatorColor: Colors.deepOrange to ensure selected and unselected tabs are always visible.
+- Any UI or navigation changes should be reflected in the README and user documentation. 

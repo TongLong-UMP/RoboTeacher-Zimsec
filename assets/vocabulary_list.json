@@ -1,0 +1,74 @@
+{
+  "vocabulary": [
+    {
+      "word": "cat",
+      "part_of_speech": "n",
+      "example": "The cat is sleeping.",
+      "variant": "",
+      "category": "Animals"
+    },
+    {
+      "word": "dog",
+      "part_of_speech": "n",
+      "example": "The dog barked loudly.",
+      "variant": "",
+      "category": "Animals"
+    },
+    {
+      "word": "elephant",
+      "part_of_speech": "n",
+      "example": "An elephant is a big animal.",
+      "variant": "",
+      "category": "Animals"
+    },
+    {
+      "word": "Monday",
+      "part_of_speech": "n",
+      "example": "",
+      "variant": "",
+      "category": "Days"
+    },
+    {
+      "word": "Tuesday",
+      "part_of_speech": "n",
+      "example": "",
+      "variant": "",
+      "category": "Days"
+    },
+    {
+      "word": "one",
+      "part_of_speech": "det & num",
+      "example": "",
+      "variant": "",
+      "category": "Numbers"
+    },
+    {
+      "word": "two",
+      "part_of_speech": "det & num",
+      "example": "",
+      "variant": "",
+      "category": "Numbers"
+    },
+    {
+      "word": "run",
+      "part_of_speech": "v",
+      "example": "I run every morning.",
+      "variant": "",
+      "category": "General"
+    },
+    {
+      "word": "happy",
+      "part_of_speech": "adj",
+      "example": "She is happy today.",
+      "variant": "",
+      "category": "General"
+    },
+    {
+      "word": "book",
+      "part_of_speech": "n & v",
+      "example": "I read a book.",
+      "variant": "",
+      "category": "General"
+    }
+  ]
+}
